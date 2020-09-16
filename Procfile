@@ -1,1 +1,1 @@
-worker: node Akai.js
+worker: node Bot.js
