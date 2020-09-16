@@ -1,0 +1,34 @@
+{
+  "name": "gaurd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Akai.js",
+  "scripts": {
+    "test": "echo \"You don't have the n-word pass\"",
+    "start": "pm2 start Akai.js && clear && pm2 logs && --watch && echo \"Booted up bot successfully\"",
+    "stop": "pm2 stop Akai.js && clear && echo \"Stopped the bot successfully\""
+  },
+  "keywords": [
+    "node",
+    "bot",
+    "discord"
+  ],
+  "author": "Samurai",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "discord-akairo": "github:discord-akairo/discord-akairo",
+    "discord.js": "github:discordjs/discord.js",
+    "discord.js-lavalink": "^2.2.3",
+    "dotenv": "^8.2.0",
+    "figlet": "^1.2.4",
+    "lavalink": "^2.8.2",
+    "node-fetch": "^2.6.0",
+    "querystring": "^0.2.0",
+    "sqlite": "^3.0.3",
+    "moment": "2.26.0",
+    "canvas":"2.6.1",
+    "path":"0.12.7",
+    "util": "^0.12.1"
+  }
+}
