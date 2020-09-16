@@ -2,7 +2,7 @@
   "name": "gaurd",
   "version": "1.0.0",
   "description": "",
-  "main": "Akai.js",
+  "main": "Bot.js",
   "scripts": {
     "test": "echo \"You don't have the n-word pass\"",
     "start": "pm2 start Akai.js && clear && pm2 logs && --watch && echo \"Booted up bot successfully\"",
