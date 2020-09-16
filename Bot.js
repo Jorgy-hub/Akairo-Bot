@@ -10,7 +10,7 @@ const BotColors = require('./Util/Colors');
 
                 this.commandHandler = new CommandHandler(this, {
                     allowMention: true,
-                    prefix: 'xd!',
+                    prefix: 's!',
                     classToHandle: Command,
                     commandUtil: true,
                     handleEdits: true,
@@ -51,17 +51,10 @@ const BotColors = require('./Util/Colors');
         }
 
         async start() {
-                require('./Extensions/message');
-           // this.settings.init().then(() => super.login(process.env.TOKEN));
+                require('./Extensions/message');      
            super.login(process.env.TOKEN)
         }
     }
 
 const client = new AkaiClient();
     client.start();
-
-
-    /*  this.settings = new SQLiteProvider(sqlite.open('path/to/db.sqlite'), 'table_name', {
-            idColumn: 'guild_id',
-            dataColumn: 'settings'
-        }); */
