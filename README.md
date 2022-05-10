@@ -5,21 +5,10 @@ This is a Discord Bot Template with Command and Listener Handler with the latest
 
 * Clone or Fork my Project
 * Enter the Repository File
-```` 
-cd Akairo-Bot
-````
 * Install Dependencies
-```
-npm i
-```
 * Create .env with following content
-
 ````
 TOKEN=''
-````
-* Run it with:
-````
-node Bot.js
 ````
 
 ### 📚 How to add Stuff:
