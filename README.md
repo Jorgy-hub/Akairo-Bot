@@ -69,4 +69,5 @@ class CooldownListener extends Event {
 <div align=center>
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
   <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
+  <img src="https://forthebadge.com/images/badges/powered-by-qt.svg" />
 </div>
