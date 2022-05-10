@@ -1,11 +1,12 @@
 ## ⋆˚🌺⃤ Akairo-Bot
 This is a Discord Bot Template with Command and Listener Handler with the latest versions of Discord.js and Discord-Akairo Framework, good for public Bots.
 
-### 📒 Getting Started:
-
-* Clone or Fork my Project
-* Enter the Repository File
-* Install Dependencies
+## 📒 Getting Started:
+* Download or fork the repository to get started!
+* Download or fork the repository.
+```
+git clone git@github.com:Uraraka-Chan/Akairo-Bot.git
+```
 * Create .env with following content
 ````
 TOKEN=''
