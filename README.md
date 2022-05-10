@@ -23,6 +23,8 @@ node Bot.js
 * Commands can be added into Command folder and divided in category folders with .js files inside.
 * Events go in the listeners folder, you can basically add anything.
 
+---
 <div align=center>
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+  <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
 </div>
