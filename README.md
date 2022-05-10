@@ -16,7 +16,7 @@ TOKEN=''
 ```js script
 // Command Structure.
 const { Command } = require('discord-akairo');
-class AsciiArtCommand extends Command {
+class Command extends Command {
   constructor() {
     super('Command-Name', {
       aliases: ['command-work', 'command'],
@@ -35,9 +35,9 @@ class AsciiArtCommand extends Command {
       }],
       // Info for Help Command
       description: {
-        usage: 'ascii [ phrase ]',
-        examples: ['ascii Hello, world!'],
-        description: 'Displays ascii art'
+        usage: 'command [ phrase ]',
+        examples: ['command Hello, world!'],
+        description: 'Description'
       },
       cooldown: 6000,
       ratelimit: 2
@@ -49,6 +49,20 @@ class AsciiArtCommand extends Command {
 }
 ```
 * Events go in the listeners folder, you can basically add anything.
+```js script
+const { Listener } = require('discord-akairo');
+class CooldownListener extends Event {
+  constructor() {
+    super('cooldown', {
+      emitter: 'emitter',
+      event: 'name',
+    })
+  }
+  exec(message, command, remaining) {
+    // Your stuff.
+  }
+}
+```
 
 ---
 <div align=center>
