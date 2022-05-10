@@ -40,7 +40,7 @@ sydeny: "Sydeny",
                 description: {
                     usage: 'serverinfo',
                     examples: ['serverinfo'],
-                    description: 'Display\'s guild info'
+                    description: 'Displays guild info'
                 },
                 cooldown: 2000,
                 ratelimit: 3
