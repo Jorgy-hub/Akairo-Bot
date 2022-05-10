@@ -12,7 +12,7 @@ git clone git@github.com:Uraraka-Chan/Akairo-Bot.git
 TOKEN=''
 ````
 
-### 📚 How to add Stuff:
+## 📚 How to add Stuff:
 * Commands can be added into Command folder and divided in category folders with .js files inside.
 ```js script
 // Command Structure.
