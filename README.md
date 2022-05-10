@@ -1,5 +1,17 @@
 ## Akairo-Bot
 This is a Discord Bot Template with Command and Listener Handler with the latest versions of Discord.js and Discord-Akairo Framework, good for public Bots.
+##$ 📒 Getting Started:
+1. Clone or Fork my Project
+2. Enter the Repository File
+> cd backend
+
+3. Create .env with following content
+
+````
+DISCORD_TOKEN=''
+````
+4. Start it with:
+> node src/index
 
 ### 📚 How to add Stuff:
 * Commands can be added into Command folder and divided in category folders with .js files inside.
